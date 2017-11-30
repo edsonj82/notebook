@@ -5,7 +5,7 @@
 #### Notebook é uma agenda de contatos para cadastro de informações de clientes, no qual tem o objetivo de contribuir para o controle de contatos do usuário final, sendo assim, melhorando a comunicação e o controle das informaçes de seus clientes.
 #### Esta aplicação esta sendo desenvolvida como forma de estudos e evolução na plataforma Ruby on Rails.
 
-<br><br>
+<br>
 
 ## Tecnologias utilizadas:
 
