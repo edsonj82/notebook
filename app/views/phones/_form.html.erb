@@ -18,7 +18,8 @@
 
   <div class="field">
     <%= f.label :contact_id %>
-    <%= f.text_field :contact_id %>
+    <!--<%= f.text_field :contact_id %>-->
+    <%= collection_select(:phone, :contact_id, @contact_option_for_select, :id, :name)%>
   </div>
 
   <div class="actions">

@@ -28,7 +28,8 @@
 
   <div class="field">
     <%= f.label :contact_id %>
-    <%= f.text_field :contact_id %>
+    <!--<%= f.text_field :contact_id %>-->
+    <%= collection_select(:address, :contact_id, @address_option_for_select, :id, :name) %>
   </div>
 
   <div class="actions">
